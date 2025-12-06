@@ -1,0 +1,10 @@
+
+server:
+  port: 8080
+
+oauth:
+  token-url: http://localhost:9000/oauth2/token
+  client-id: client-id
+  client-secret: client-secret
+  grant-type: client_credentials
+  scope: read

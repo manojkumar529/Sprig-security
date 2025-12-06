@@ -1,0 +1,17 @@
+
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:9000
+
+oauth:
+  token-url: http://localhost:9000/oauth2/token
+  client-id: client-id
+  client-secret: client-secret
+  grant-type: client_credentials
+  scope: read
